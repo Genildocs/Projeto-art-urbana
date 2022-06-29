@@ -1,0 +1,53 @@
+*{
+    color: #25282E
+}
+
+a, i {
+    transition: 5s;
+    text-decoration: none;
+}
+
+.secondary-color{
+    color: #555;
+}
+
+.center-image {
+    background-size: cover;
+    background-position:center;
+}
+
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+   
+}
+
+#header P{
+    margin-bottom: 0;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;   
+       
+}
+
+#logo{
+    width: 40px;
+    margin-right: 15px ;
+    
+}
+
+#navbar{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a {
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover{
+    color:#c1b696;
+}
